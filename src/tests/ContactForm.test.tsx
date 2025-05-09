@@ -57,7 +57,7 @@ describe("ContactForm", () => {
             target: { value: 'jk@example.com' },
         })
         fireEvent.change(screen.getByLabelText(/message/i), {
-            target: { value: 'This is a message.' },
+            target: { value: 'sample message.' },
         })
         fireEvent.click(screen.getByLabelText(/general/i))
         fireEvent.click(screen.getByLabelText(/consent/i))

@@ -56,7 +56,7 @@ export const ContactForm = () => {
         >
             <h1 className="text-3xl font-semibold text-gray-900">Contact Us</h1>
 
-            {/* First & Last Name */}
+            {/* first and last name */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                     <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
@@ -91,7 +91,7 @@ export const ContactForm = () => {
                 </div>
             </div>
 
-            {/* Email */}
+            {/* email */}
             <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                     Email Address<span className="text-red-600">*</span>
@@ -109,7 +109,7 @@ export const ContactForm = () => {
                 )}
             </div>
 
-            {/* Query Type */}
+            {/* query radio buttons */}
             <fieldset>
                 <legend className="block text-sm font-medium text-gray-700 mb-1">
                     Query Type<span className="text-red-600">*</span>
@@ -142,7 +142,7 @@ export const ContactForm = () => {
                 )}
             </fieldset>
 
-            {/* Message */}
+            {/* message */}
             <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                     Message<span className="text-red-600">*</span>
@@ -160,7 +160,7 @@ export const ContactForm = () => {
                 )}
             </div>
 
-            {/* Consent */}
+            {/* consent */}
             <div className="flex items-start gap-2">
                 <input
                     id="consent"
@@ -176,7 +176,7 @@ export const ContactForm = () => {
                 <p className="text-red-600 text-sm mt-1">{errors.consent.message}</p>
             )}
 
-            {/* Submit Button */}
+            {/* submit button */}
             <button
                 type="submit"
                 className="w-full bg-emerald-700 hover:bg-emerald-800 text-white py-3 px-4 rounded-lg text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-emerald-400"
